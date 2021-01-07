@@ -16,7 +16,7 @@ require('appmetrics-dash').monitor();
 const MongoClient 	= require('mongodb').MongoClient;
 const swaggerJSDoc 	= require('swagger-jsdoc');
 const bodyparser 	= require('body-parser');
-const CONFIG		= require('./config.js');
+const CONFIG		= require('./config.example.js');
 const express 		= require('express');
 const app 			  = express();
 

@@ -5,5 +5,5 @@
 
 mkdir -p logs
 
-./stop.sh
-node index.js &> $(pwd)/logs/$(date +%Y-%m-%d_%H-%M-%S.log) & echo $! > $(pwd)/statehistoryapi.pid
+#./stop.sh
+node server.js &> /opt/apiserver/logs/$(date +%Y-%m-%d_%H-%M-%S.log) & echo $! > /opt/apiserver/statehistoryapi.pid

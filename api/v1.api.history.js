@@ -3,7 +3,7 @@
 const MAX_ELEMENTS 	= 1000;
 const async 		= require('async');
 const request 		= require('request');
-const config 		= require('../config');
+const config 		= require('../config.example.js');
 
 module.exports = (app, DB, swaggerSpec) => {
 
